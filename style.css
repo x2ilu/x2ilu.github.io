@@ -1,0 +1,20 @@
+body{
+    background-image: url(img/m2.jpg);
+}
+
+.n0{
+    
+    padding: 200px;
+    background: #ffffff; 
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img{
+    width: auto;
+    height: auto;
+    border: 1px solid #000000;
+    text-align: center;
+.n1{ 
+    
+}
