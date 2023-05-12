@@ -2,19 +2,100 @@ body{
     background-image: url(img/m2.jpg);
 }
 
-.n0{
-    
+.a0{
+    text-align: center;
     padding: 200px;
-    background: #ffffff; 
+    background: #b499b4; 
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5%;
+    
 }
+
+
 .img{
     width: auto;
     height: auto;
     border: 1px solid #000000;
     text-align: center;
-.n1{ 
+    border-radius: 50%;
+}
+
+
+.a1{
+    paddig:150px;
+    background: white;
+    width: 450px;
+    text-align: center;
+    top: 30px;
+    
+}
+
+.topnav {
+    background-color: rgb(119, 77, 168);
+    overflow: hidden;
+    text-align: center;
+    border-radius: 30%;
+}
+
+.topnav a {
+    color: #332446;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(90, 12, 114) ;
+    border-radius: 50%;
+}
+
+.topnav a.active {
+    background-color: rgb(84, 41, 109);
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+    .b0{
+        border-radius: 50px;
+        text-align: center;
+        padding: 200px;
+        background: #b499b4; 
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto
+        
+    }
+    .b1{
+        paddig:150px;
+        background: white;
+        width: 450px;
+        text-align: center;
+        top: 30px;
+    }
+    .b2{
+        paddig:150px;
+        background: white;
+        width: 450px;
+        text-align: center;
+        top: 30px;
+    }
+    .b3{
+        paddig:150px;
+        background: white;
+        width: 450px;
+        text-align: center;
+        top: 30px;
+        
+    }
+
+.c0{
+
+    text-align: center;
+    background: white;
+    border-radius: 40%;
     
 }
