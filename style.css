@@ -29,7 +29,12 @@ body{
     width: 450px;
     text-align: center;
     top: 30px;
-    
+    border-radius: 3%;
+}
+
+
+.a6{
+    border-radius: 3%;
 }
 
 .topnav {
@@ -67,6 +72,7 @@ body{
         width: 400px;
         margin-left: auto;
         margin-right: auto
+        
         
     }
     .b1{
