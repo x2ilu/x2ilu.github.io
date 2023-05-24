@@ -1,5 +1,5 @@
 body{
-    background-image: url(/x2ilu.github.io/img/m1.jpg) ;
+    background-image: url(img/m1.jpg);
 }
 h1{
     text-align: center;
@@ -11,11 +11,12 @@ button{
     width: 80px;
     height: 40px;
     margin: auto;
+    background-color: rgba(177, 184, 247, 0.521);
 }
 .bg{
     margin: auto;
     width: 1100px;
-    height: 2100px;
+    height: 2500px;
     
 }
 .bg3{
@@ -33,6 +34,7 @@ button{
     background-size: cover;
     margin: auto;
     position: relative;
+    
 }
 .k{
     text-align: center;
@@ -70,4 +72,31 @@ button{
 #s{
     font-family: DejaVu Sans Mono, monospace ;
     font-weight: 900;
+}
+.e{
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background-color: cornflowerblue;
+    bottom: 0;
+    text-align: center;
+    color: aliceblue;
+
+
+}
+.f1{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: cornflowerblue;
+    bottom: 0;
+    text-align: center;
+    top: 0;
+    z-index: 10;
+    
+}
+
+#but{
+    width: 60px;
+    height: 60px;
 }
