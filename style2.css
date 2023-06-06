@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(14, 14, 14);
+}
+
+
+
+.all{
+    width: auto;
+    background-color: #252525;
+    height: 350px;
+}
+
+
+.header{
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 29px;
+    position: sticky;
+    text-align: center;
+
+
+}
+.header:hover{
+    box-shadow: 0 0 0 -25px #ccc,
+    0 -20px 10px -5px #00b7ff94,
+    20px 0 10px -5px  #00b7ff94,
+    0 20px 10px -5px #00b7ff94,
+    -20px 0 10px -5px #00b7ff94 ;	
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.header2{
+    margin-top: 16px;
+    background-size: cover;
+    margin: auto;
+    position: sticky;
+    
+}
+a{
+    margin-top: 45px; /* Отступ справа */
+    margin-left: 45px; /* Отступ справа */
+}
+.text{
+    color: aliceblue;    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: #00ccff;
+}
+.photo > img{
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 4px #42a1ff;
+}
+.photo{
+    margin: auto;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    
+}
+
+mark{
+    color: aqua;
+    background-color: #1b2025;
+}
