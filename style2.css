@@ -1,19 +1,19 @@
 body{
-    background-color: rgb(14, 14, 14);
+    background-color: rgb(0, 0, 0);
 }
 
 
 
 .all{
     width: auto;
-    background-color: #252525;
+    background-color: #161616;
     height: 350px;
 }
 
 
 .header{
     height: 70px;
-    background-color: rgb(255, 255, 255);
+    background-color:#161616;
     border-radius: 29px;
     position: sticky;
     text-align: center;
@@ -21,11 +21,11 @@ body{
 
 }
 .header:hover{
-    box-shadow: 0 0 0 -25px #ccc,
-    0 -20px 10px -5px #00b7ff94,
-    20px 0 10px -5px  #00b7ff94,
-    0 20px 10px -5px #00b7ff94,
-    -20px 0 10px -5px #00b7ff94 ;	
+    box-shadow: 0 0 0 -25px #818181,
+    0 -20px 10px -5px#ffffff3f,
+    20px 0 10px -5px #ffffff3f,
+    0 20px 10px -5px#ffffff3f,
+    -20px 0 10px -5px#ffffff3f ;	
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     transition: all 0.5s ease;
@@ -61,6 +61,50 @@ a{
 }
 
 mark{
-    color: aqua;
+    color: rgb(0, 153, 255);
     background-color: #1b2025;
+}
+.container{
+    background-color: #1b2025;
+    height: 800px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-top: 30px;
+    padding: 10px  0 10px;
+    
+}
+.color{
+    float: left;
+    height: 200px;
+    width: 300px;
+
+}
+
+.ab{    
+    background-color: red;   
+}
+.bb{
+    background-color: orange;
+}
+.cb{
+    background-color: green;
+}
+.db{
+    background-color:  aqua;
+}
+.eb{
+    background-color: blue;
+}
+.fb{
+    background-color: indigo;
+}
+.gb{
+    background-color:Lime ;
+}
+.hb{
+    background-color: Pink ; 
+}
+.ib{
+    background-color: DarkSlateBlue ;
 }
