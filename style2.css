@@ -83,26 +83,41 @@ mark{
 
 .ab{    
     background-color: red;   
+    text-align: center;
 }
 .bb{
     background-color: orange;
+    text-align: center;
+
 }
 .cb{
     background-color: green;
+    text-align: center;
+
 }
 .db{
     background-color:  aqua;
+    text-align: center;
+
 }
 .eb{
     background-color: blue;
+    text-align: center;
+
 }
 .fb{
     background-color: indigo;
+    text-align: center;
+
 }
 .gb{
     background-color:Lime ;
+    text-align: center;
+
 }
 .hb{
     background-color: Pink ; 
+    text-align: center;
+
 }
 .
