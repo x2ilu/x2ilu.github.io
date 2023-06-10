@@ -1,0 +1,48 @@
+body{
+    background-image: url(su.jpg);
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+p{
+    color: azure;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h1{
+    font-size: 90px;
+    color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    display: inline-block;
+}
+.container{
+    min-height: 700px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 15px 0 0 15px;
+}
+.Es{
+    background-image: url(estoniya.jpg);
+}
+.Hol{
+    background-image: url(hollandiya.jpg);
+}
+.es{
+    height: 100px;
+    width: 150px;
+    background-image: linear-gradient(to top,white 33% , black 33% 66%,blue 33%);
+    border-radius: 30%;
+    margin: auto;
+
+}
+.hol{
+    height: 100px;
+    width: 150px;
+    background-image: linear-gradient(to top, blue 33% , white 33% 66%, red 33%);
+    border-radius: 30%;
+    margin: auto;
+
+}
