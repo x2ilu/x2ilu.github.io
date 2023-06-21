@@ -21,6 +21,8 @@ body{
 }
 .ronaldo{
 
+    cursor: cell;
+
     background-image: url(img/ronaldo.png);
     
     width: 300px;
@@ -46,6 +48,8 @@ body{
 }
 
 .ronaldo:hover{
+
+    cursor: cell ;
     
     scale: 1.03;
     
@@ -55,6 +59,8 @@ body{
     
 }
 .ball{
+
+    cursor: cell;
 
     background-image: url(img/bal2.png);
     
@@ -81,6 +87,8 @@ body{
 }
 .ball:hover{
 
+    cursor: cell ;
+
     transform: translate(600px,-50px);
 
     scale: 1.03;
@@ -89,6 +97,8 @@ body{
 
 .vorota{
 
+    cursor: move;
+    
     width: 500px;
     
     height: 500px;
