@@ -47,32 +47,130 @@
         }
 
         #contact {
-            background-color: yellowgreen;            
+            background-color: yellowgreen;
         }
-        .img{
+
+        .img {
             background-image: url(1.jpg);
             width: 250px;
             height: 250px;
             background-size: cover;
+            position:relative;
+            border-radius: 10px;
+            cursor: pointer;
         }
-        .img2{
+        .img::before{
+            content: 'contact page';
+            text-align: center;
+            color: white;
+            line-height: 150px;
+            background-color: rgba(0, 0, 0, 0.479);
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            border-radius: 10px;
+            transition: .4s;
+            scale: 1;
+        }
+        .img:hover:before{
+            scale: 1;
+            opacity: 10%;
+        }
+
+        .img2 {
             background-image: url(2.jpg);
             width: 250px;
             height: 250px;
             background-size: cover;
+            position:relative;
+            border-radius: 10px;
+            cursor: pointer;
+
         }
-        .img3{
+        .img2::before{
+            content: 'contact page';
+            text-align: center;
+            color: white;
+            line-height: 150px;
+            background-color: rgba(0, 0, 0, 0.479);
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            border-radius: 10px;
+            transition: .4s;
+            scale: 1;
+        }
+        .img2:hover:before{
+            scale: 1;
+            opacity: 10%;
+        }
+
+        .img3 {
             background-image: url(3.jpg);
             width: 250px;
             height: 250px;
             background-size: cover;
+            position:relative;
+            border-radius: 10px;
+            cursor: pointer;
         }
-        .img4{
+
+        .img3::before{
+            content: 'contact page';
+            text-align: center;
+            color: white;
+            line-height: 150px;
+            background-color: rgba(0, 0, 0, 0.479);
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            border-radius: 10px;
+            transition: .4s;
+            scale: 1;
+        }
+        .img3:hover:before{
+            scale: 1;
+            opacity: 10%;
+        }
+
+        .img4 {
             background-image: url(4.jpg);
             width: 250px;
             height: 250px;
             background-size: cover;
+
+            position:relative;
+            border-radius: 10px;
+            cursor: pointer;
         }
+
+        
+        .img4::before{
+            content: 'contact page';
+            text-align: center;
+            color: white;
+            line-height: 150px;
+            background-color: rgba(0, 0, 0, 0.479);
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            border-radius: 10px;
+            transition: .4s;
+            scale: 1;
+        }
+        .img4:hover:before{
+            scale: 1;
+            opacity: 10%;
+        }
+
     </style>
 
 </head>
@@ -86,31 +184,46 @@
     </nav>
     <section id="home">
         <h1>home page</h1>
-        <div class="img"></div>
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatibus accusamus delectus laudantium
             accusantium voluptate, quia porro vitae tempora? Repellendus, repellat eligendi. Tempore, officia quis?
-            Rerum illo modi tenetur totam!</p>
+            Rerum illo modi tenetur totam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur impedit
+            tempora culpa accusamus nulla soluta tempore neque libero veritatis aliquam! Alias aliquam est beatae quos
+            officia maxime! Nemo, laboriosam repudiandae.</p>
+        <div class="img"></div>
     </section>
     <section id="galery">
         <h1>galery page</h1>
-        <div class="img2"></div>
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatibus accusamus delectus laudantium
-            accusantium voluptate, quia porro vitae tempora? Repellendus, repellat eligendi. Tempore, officia quis?
+            accusantium voluptate, quia porro vitae tempora? Repellendus, repellat eligendi. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Atque, at provident debitis exercitationem, cumque veniam ut dolor eaque
+            placeat animi culpa architecto aliquid, rerum dicta nemo dolores quisquam earum laboriosam? Tempore, officia
+            quis?
             Rerum illo modi tenetur totam!</p>
+        <div class="img2"></div>
     </section>
     <section id="about">
         <h1>about page</h1>
-        <div class="img3"></div>
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatibus accusamus delectus laudantium
             accusantium voluptate, quia porro vitae tempora? Repellendus, repellat eligendi. Tempore, officia quis?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi iusto aspernatur voluptates incidunt, fuga,
+            magnam vel, repudiandae doloribus reiciendis corrupti placeat mollitia totam. Nam aliquam, eligendi
+            quibusdam debitis cumque dignissimos.
             Rerum illo modi tenetur totam!</p>
+        <div class="img3"></div>
     </section>
     <section id="contact">
         <h1>contact page</h1>
-        <div class="img4"></div>
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatibus accusamus delectus laudantium
             accusantium voluptate, quia porro vitae tempora? Repellendus, repellat eligendi. Tempore, officia quis?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure dicta similique quisquam neque. Consequatur
+            nihil incidunt quasi delectus earum, itaque iusto veritatis? Odit sapiente a numquam unde molestiae animi?
+            Perferendis?
             Rerum illo modi tenetur totam!</p>
+        <div class="img4"></div>
     </section>
 </body>
 
