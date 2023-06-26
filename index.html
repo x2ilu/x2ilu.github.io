@@ -5,27 +5,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ronaldo</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/anime-removebg-preview.png" type="image/x-icon">
+    <title>0</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        nav {
+            background-color: orangered;
+            position: sticky;
+            top: 0;
+            scroll-behavior: smooth;
+        }
+
+        a {
+            line-height: 50px;
+            color: aliceblue;
+            text-decoration: none;
+            padding: 0 5px;
+
+        }
+
+        section {
+            height: calc(100vh - 50px);
+            scroll-margin-top: 50px;
+        }
+
+        #home {
+            background-color: rgb(92, 140, 202);
+        }
+
+        #galery {
+            background-color: rgb(19, 19, 65);
+        }
+
+        #about {
+            background-color: skyblue;
+        }
+
+        #contact {
+            background-color: yellowgreen;            
+        }
+        .img{
+            background-image: url(1.jpg);
+            width: 250px;
+            height: 250px;
+            background-size: cover;
+        }
+        .img2{
+            background-image: url(2.jpg);
+            width: 250px;
+            height: 250px;
+            background-size: cover;
+        }
+        .img3{
+            background-image: url(3.jpg);
+            width: 250px;
+            height: 250px;
+            background-size: cover;
+        }
+        .img4{
+            background-image: url(4.jpg);
+            width: 250px;
+            height: 250px;
+            background-size: cover;
+        }
+    </style>
 
 </head>
 
 <body>
-    <div class="all">
-
-        <div class="rb">
-            <div class="ronaldo"></div>
-
-            <div class="vorota"></div>
-        </div>
-
-        <div class="ball"></div>
-
-
-
-    </div>
-
+    <nav>
+        <a href="#home">home</a>
+        <a href="#galery">galery</a>
+        <a href="#about">about</a>
+        <a href="#contact">contact</a>
+    </nav>
+    <section id="home">
+        <h1>home page</h1>
+        <div class="img"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatibus accusamus delectus laudantium
+            accusantium voluptate, quia porro vitae tempora? Repellendus, repellat eligendi. Tempore, officia quis?
+            Rerum illo modi tenetur totam!</p>
+    </section>
+    <section id="galery">
+        <h1>galery page</h1>
+        <div class="img2"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatibus accusamus delectus laudantium
+            accusantium voluptate, quia porro vitae tempora? Repellendus, repellat eligendi. Tempore, officia quis?
+            Rerum illo modi tenetur totam!</p>
+    </section>
+    <section id="about">
+        <h1>about page</h1>
+        <div class="img3"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatibus accusamus delectus laudantium
+            accusantium voluptate, quia porro vitae tempora? Repellendus, repellat eligendi. Tempore, officia quis?
+            Rerum illo modi tenetur totam!</p>
+    </section>
+    <section id="contact">
+        <h1>contact page</h1>
+        <div class="img4"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatibus accusamus delectus laudantium
+            accusantium voluptate, quia porro vitae tempora? Repellendus, repellat eligendi. Tempore, officia quis?
+            Rerum illo modi tenetur totam!</p>
+    </section>
 </body>
 
 </html>
