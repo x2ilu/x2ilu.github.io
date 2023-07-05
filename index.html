@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>0</title>
     <style>
-        html,
-        body {
+
+        html ,body {
             margin: 0;
             padding: 0;
             scroll-behavior: smooth;
         }
+
 
         nav {
             background-color: orangered;
@@ -20,6 +21,7 @@
             top: 0;
             scroll-behavior: smooth;
         }
+
 
         a {
             line-height: 50px;
@@ -29,37 +31,61 @@
 
         }
 
+
         section {
             height: calc(75vh - 25px);
             scroll-margin-top: 50px;
+            text-align: center;
         }
+
+
+        .header {
+            width: 100%;
+            height: 60px;
+            background-color: rgb(255, 255, 255);
+            top: 0;
+            position: sticky;
+        }
+
 
         #home {
             background-color: rgb(92, 140, 202);
         }
 
+
+
         #galery {
             background-color: rgb(19, 19, 65);
         }
+
+
 
         #about {
             background-color: skyblue;
         }
 
+
+
         #contact {
             background-color: yellowgreen;
         }
+
+
 
         .img {
             background-image: url(1.jpg);
             width: 250px;
             height: 250px;
             background-size: cover;
-            position:relative;
+            position: relative;
             border-radius: 10px;
             cursor: pointer;
+            text-align: center;
+            margin: auto;
         }
-        .img::before{
+
+
+        .img::before {
             content: 'contact page';
             text-align: center;
             color: white;
@@ -74,22 +100,29 @@
             transition: .4s;
             scale: 1;
         }
-        .img:hover:before{
+
+
+        .img:hover:before {
             scale: 1;
             opacity: 10%;
         }
+
 
         .img2 {
             background-image: url(2.jpg);
             width: 250px;
             height: 250px;
             background-size: cover;
-            position:relative;
+            position: relative;
             border-radius: 10px;
             cursor: pointer;
+            text-align: center;
+            margin: auto;
 
         }
-        .img2::before{
+
+
+        .img2::before {
             content: 'contact page';
             text-align: center;
             color: white;
@@ -105,22 +138,28 @@
             scale: 1;
 
         }
-        .img2:hover:before{
+
+
+        .img2:hover:before {
             scale: 1;
             opacity: 10%;
         }
+
 
         .img3 {
             background-image: url(3.jpg);
             width: 250px;
             height: 250px;
             background-size: cover;
-            position:relative;
+            position: relative;
             border-radius: 10px;
             cursor: pointer;
+            text-align: center;
+            margin: auto;
         }
 
-        .img3::before{
+
+        .img3::before {
             content: 'contact page';
             text-align: center;
             color: white;
@@ -135,24 +174,29 @@
             transition: .4s;
             scale: 1;
         }
-        .img3:hover:before{
+
+
+        .img3:hover:before {
             scale: 1;
             opacity: 10%;
         }
+
 
         .img4 {
             background-image: url(4.jpg);
             width: 250px;
             height: 250px;
             background-size: cover;
-
-            position:relative;
+            position: relative;
             border-radius: 10px;
             cursor: pointer;
+            text-align: center;
+            margin: auto;
         }
 
-        
-        .img4::before{
+
+
+        .img4::before {
             content: 'contact page';
             text-align: center;
             color: white;
@@ -167,16 +211,20 @@
             transition: .4s;
             scale: 1;
         }
-        .img4:hover:before{
+
+
+        .img4:hover:before {
             scale: 1;
             opacity: 10%;
         }
 
+        
     </style>
 
 </head>
 
 <body>
+    <div class="header"></div>
     <nav>
         <a href="#home">home</a>
         <a href="#galery">galery</a>
