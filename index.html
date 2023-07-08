@@ -3,277 +3,92 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>0</title>
-    <style>
-
-        html ,body {
-            margin: 0;
-            padding: 0;
-            scroll-behavior: smooth;
-        }
-
-
-        nav {
-            background-color: orangered;
-            position: sticky;
-            top: 0;
-            scroll-behavior: smooth;
-        }
-
-
-        a {
-            line-height: 50px;
-            color: aliceblue;
-            text-decoration: none;
-            padding: 0 5px;
-
-        }
-
-
-        section {
-            height: calc(75vh - 25px);
-            scroll-margin-top: 50px;
-            text-align: center;
-        }
-
-
-        .header {
-            width: 100%;
-            height: 60px;
-            background-color: rgb(255, 255, 255);
-            top: 0;
-            position: sticky;
-        }
-
-
-        #home {
-            background-color: rgb(92, 140, 202);
-        }
-
-
-
-        #galery {
-            background-color: rgb(19, 19, 65);
-        }
-
-
-
-        #about {
-            background-color: skyblue;
-        }
-
-
-
-        #contact {
-            background-color: yellowgreen;
-        }
-
-
-
-        .img {
-            background-image: url(1.jpg);
-            width: 250px;
-            height: 250px;
-            background-size: cover;
-            position: relative;
-            border-radius: 10px;
-            cursor: pointer;
-            text-align: center;
-            margin: auto;
-        }
-
-
-        .img::before {
-            content: 'contact page';
-            text-align: center;
-            color: white;
-            line-height: 150px;
-            background-color: rgba(0, 0, 0, 0.479);
-            position: absolute;
-            top: 0;
-            right: 0;
-            left: 0;
-            bottom: 0;
-            border-radius: 10px;
-            transition: .4s;
-            scale: 1;
-        }
-
-
-        .img:hover:before {
-            scale: 1;
-            opacity: 10%;
-        }
-
-
-        .img2 {
-            background-image: url(2.jpg);
-            width: 250px;
-            height: 250px;
-            background-size: cover;
-            position: relative;
-            border-radius: 10px;
-            cursor: pointer;
-            text-align: center;
-            margin: auto;
-
-        }
-
-
-        .img2::before {
-            content: 'contact page';
-            text-align: center;
-            color: white;
-            line-height: 150px;
-            background-color: rgba(0, 0, 0, 0.479);
-            position: absolute;
-            top: 0;
-            right: 0;
-            left: 0;
-            bottom: 0;
-            border-radius: 10px;
-            transition: .4s;
-            scale: 1;
-
-        }
-
-
-        .img2:hover:before {
-            scale: 1;
-            opacity: 10%;
-        }
-
-
-        .img3 {
-            background-image: url(3.jpg);
-            width: 250px;
-            height: 250px;
-            background-size: cover;
-            position: relative;
-            border-radius: 10px;
-            cursor: pointer;
-            text-align: center;
-            margin: auto;
-        }
-
-
-        .img3::before {
-            content: 'contact page';
-            text-align: center;
-            color: white;
-            line-height: 150px;
-            background-color: rgba(0, 0, 0, 0.479);
-            position: absolute;
-            top: 0;
-            right: 0;
-            left: 0;
-            bottom: 0;
-            border-radius: 10px;
-            transition: .4s;
-            scale: 1;
-        }
-
-
-        .img3:hover:before {
-            scale: 1;
-            opacity: 10%;
-        }
-
-
-        .img4 {
-            background-image: url(4.jpg);
-            width: 250px;
-            height: 250px;
-            background-size: cover;
-            position: relative;
-            border-radius: 10px;
-            cursor: pointer;
-            text-align: center;
-            margin: auto;
-        }
-
-
-
-        .img4::before {
-            content: 'contact page';
-            text-align: center;
-            color: white;
-            line-height: 150px;
-            background-color: rgba(0, 0, 0, 0.479);
-            position: absolute;
-            top: 0;
-            right: 0;
-            left: 0;
-            bottom: 0;
-            border-radius: 10px;
-            transition: .4s;
-            scale: 1;
-        }
-
-
-        .img4:hover:before {
-            scale: 1;
-            opacity: 10%;
-        }
-
-        
-    </style>
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="x-icon" href="img/logo.png">
+    <title>YouTube</title>
 </head>
 
 <body>
-    <div class="header"></div>
-    <nav>
-        <a href="#home">home</a>
-        <a href="#galery">galery</a>
-        <a href="#about">about</a>
-        <a href="#contact">contact</a>
-    </nav>
-    <section id="home">
-        <h1>home page</h1>
+    <div class="container">
+        <div class="d1"><i class="fa fa-bars" aria-hidden="true"></i></div>
+        <a href="https://www.youtube.com/">
+            <div class="logo"></div>
+            <h1>YouTube</h1>
+        </a>
+        <form action="https://www.youtube.com/search" method="get" class="d2">
+            <input type="text" placeholder="Search">
+            <button type="submit"><img src="search-icon.png" alt=""></button>
+        </form>
+        <div class="micb">
+            <div class="mic"></div>
+        </div>
+        <a
+            href="https://accounts.google.com/v3/signin/identifier?dsh=S838865216%3A1688708432297448&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dtr%26next%3D%252F&ec=65620&hl=tr&ifkv=AeDOFXgIcKHFGgISR1_X-f3iJ-TGo5TxD-5oB-waDlU8QxEgby22q_BdC1sIuYb_-aTuqf97u94b8w&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+            <div class="login"><i class="fa fa-user" aria-hidden="true"> Login</i>
+            </div>
+        </a>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatibus accusamus delectus laudantium
-            accusantium voluptate, quia porro vitae tempora? Repellendus, repellat eligendi. Tempore, officia quis?
-            Rerum illo modi tenetur totam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur impedit
-            tempora culpa accusamus nulla soluta tempore neque libero veritatis aliquam! Alias aliquam est beatae quos
-            officia maxime! Nemo, laboriosam repudiandae.</p>
-        <div class="img"></div>
-    </section>
-    <section id="galery">
-        <h1>galery page</h1>
+    </div>
+    <Br>
+    <div class="vids">
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/JYPIDIQSvb8"
+            title="위로가 필요한 밤, 따스하게 안아줄 재즈 | Comfort Jazz | Relaxing Background Music" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <a href="https://youtu.be/JYPIDIQSvb8">
+            <div class="vid vid1"></div>
+        </a>
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/Sllp_eTV7Ks" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <a href="https://youtu.be/Sllp_eTV7Ks">
+            <div class="vid vid2"></div>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatibus accusamus delectus laudantium
-            accusantium voluptate, quia porro vitae tempora? Repellendus, repellat eligendi. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Atque, at provident debitis exercitationem, cumque veniam ut dolor eaque
-            placeat animi culpa architecto aliquid, rerum dicta nemo dolores quisquam earum laboriosam? Tempore, officia
-            quis?
-            Rerum illo modi tenetur totam!</p>
-        <div class="img2"></div>
-    </section>
-    <section id="about">
-        <h1>about page</h1>
+        </a>
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/Y1iFfnVGK5w" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <a href="https://youtu.be/Y1iFfnVGK5w">
+            <div class="vid vid3"></div>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatibus accusamus delectus laudantium
-            accusantium voluptate, quia porro vitae tempora? Repellendus, repellat eligendi. Tempore, officia quis?
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi iusto aspernatur voluptates incidunt, fuga,
-            magnam vel, repudiandae doloribus reiciendis corrupti placeat mollitia totam. Nam aliquam, eligendi
-            quibusdam debitis cumque dignissimos.
-            Rerum illo modi tenetur totam!</p>
-        <div class="img3"></div>
-    </section>
-    <section id="contact">
-        <h1>contact page</h1>
+        </a>
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/G_TJZ4KPqpA" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <a href="https://youtu.be/G_TJZ4KPqpA">
+            <div class="vid vid4"></div>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatibus accusamus delectus laudantium
-            accusantium voluptate, quia porro vitae tempora? Repellendus, repellat eligendi. Tempore, officia quis?
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure dicta similique quisquam neque. Consequatur
-            nihil incidunt quasi delectus earum, itaque iusto veritatis? Odit sapiente a numquam unde molestiae animi?
-            Perferendis?
-            Rerum illo modi tenetur totam!</p>
-        <div class="img4"></div>
-    </section>
+        </a>
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/HfaIcB4Ogxk" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <a href="https://youtu.be/HfaIcB4Ogxk">
+            <div class="vid vid5"></div>
+
+        </a>
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/sMivc3RIrFs" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <a href="https://youtu.be/sMivc3RIrFs">
+            <div class="vid vid6"></div>
+        </a>
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/9DKSOsLR7Vk" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <a href="https://www.youtube.com/live/9DKSOsLR7Vk?feature=share">
+            <div class="vid vid7"></div>
+
+
 </body>
 
-</html>
+</html
