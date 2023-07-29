@@ -143,9 +143,10 @@ p {
 }
 
 .item-choise-href{
-    margin-top: -350px;
+
     position: absolute;
     columns: 2 ;
+    margin: auto -350px;
 }
 
 ul{
