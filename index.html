@@ -5,173 +5,184 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>resposive</title>
+    <link rel="stylesheet" href="dost-design.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            text-align: center;
-            font-family: 'Inter', sans-serif;
-            width: 100%;
-
-        }
-
-        .header {
-            width: 100%;
-            height: 30px;
-            text-align: center;
-            position: fixed;
-            background-color: darkcyan;
-
-            top: 0;
-        }
-
-        a {
-            margin: 10px;
-            text-decoration: none;
-            color: cornsilk;
-        }
-
-        .container {
-            margin-top: 50px;
-        }
-
-        .flex-container {
-            display: flex;
-            flex-direction: row;
-            font-size: 30px;
-            justify-content: center;
-            margin-top: 30px;
-        }
-
-        .item {
-            padding: 30px;
-            width: 70%;
-            margin: 5px;
-        }
-
-        .img1 {
-            background-image: url(Kimi\ no\ na\ wa.jpg);
-            background-size: cover;
-        }
-
-        .img2 {
-            background-image: url(Без\ названия\ \(5\).jpg);
-            background-size: cover;
-        }
-
-        .img3 {
-            background-image: url(2.jpg);
-            background-size: cover;
-        }
-
-        .img4 {
-            background-image: url(1.jpg);
-            background-size: cover;
-        }
-
-        @media (max-width: 555px) {
-            .flex-container {
-                flex-direction: column;
-
-            }
-
-            .item {
-                padding: 40px;
-                height: 58px;
-                margin: 10px auto;
-            }
-        }
-
-        .footer {
-            background-color: darkcyan;
-            position: relative;
-            width: 100%;
-            height: 30px;
-            text-align: center;
-            bottom: 0;
-
-        }
-
-        .niz {
-            width: 100%;
-            height: 200px;
-            background-color: darkcyan;
-            margin-top: 30px;
-            text-align: center;
-
-        }
-
-        .cont {
-            margin: 15px;
-        }
-    </style>
+    <title>responsive project</title>
 </head>
-<body>
-    <div class="header">
-        <a href="https://www.youtube.com/">page1</a>
-        <a href="https://www.youtube.com/">page2</a>
-        <a href="https://www.youtube.com/">page3</a>
-        <a href="https://www.youtube.com/">page4</a>
+
+<html>
+<div class="header">
+
+
+    <a id="head" href="politic.html">политика</a>
+
+
+    <a id="head" href="news.html">новости и события</a>
+
+
+    <a id="head" href="library.html">библиотека</a>
+
+
+    <a id="head" href="we.html">мы</a>
+
+
+    <a id="head" href="partfolio.html">
+        партфолио
+    </a>
+    <!-- & -->
+
+    <input type="search" name="search" value="" class="form-control form-control-search-field" placeholder="Поиск"
+        aria-label="Поиск" aria-describedby="search">
+
+</div>
+<!-- & -->
+
+<br><br><br><br>
+<br><br>
+
+<div class="item-vid">
+
+    <video id="home-video" autoplay="" loop="" muted=""
+        src="https://www.ada.edu.az/frq-content/plugins/slider_x1/entry/20201118180228_12349200.mp4"></video>
+</div>
+<!-- & -->
+
+<!-- тут заканчивается header и начинается середина и основная часть страницы -->
+< class="container-seredina">
+
+    <br>
+    <div class="item-text">
+        <h1>lorem</h1>
+        <p id="id1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut ullam ducimus nam nostrum autem ab
+            ipsum
+            ipsa molestiae, accusamus iusto illo? Neque sit, illum magni odio consequatur culpa ullam molestias.</p>
+        <p id="id2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates accusantium maiores sequi rem
+            delectus voluptatum. Nam commodi dolorum corporis incidunt sequi, error molestiae fuga iusto neque ad!
+            Accusamus, corporis? Ducimus.</p>
+        <p id="id3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis temporibus laudantium debitis sint,
+            dolore maiores animi labore deleniti fugiat dolor, non rem facere autem sapiente? Ratione similique
+            neque mollitia vero.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis temporibus laudantium debitis sint,
+            dolore maiores animi labore deleniti fugiat dolor, non rem facere autem sapiente? Ratione similique
+            neque mollitia vero.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis temporibus laudantium debitis sint,
+            dolore maiores animi labore deleniti fugiat dolor, non rem facere autem sapiente? Ratione similique
+            neque mollitia vero.</p>
     </div>
-    <div class="container">
-        <br>
-        <h1>responsive</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, temporibus expedita! Possimus quam quaerat nobis
-            delectus, dicta error assumenda aliquid nesciunt dolorem temporibus atque aperiam, nulla animi expedita,
-            itaque vel.</p>
+
+<!-- & -->
+<br><br>
+<!-- item-choise здесь будет маленькая картинка с и затемнением 10px поверх неё будет надпись разделённая на две части текстом-->
+<div class="item-choise">
+    <div class="item-choise-img-b"></div>
+    <div class="item-choise-href">
+        <a id="item-choise_p1">
+            <h3>lorem</h3>
+            <ul>
+                <li href="#id1">lorem</li>
+                <li href="#id2">lorem</li>
+                <li href="#id3">lorem</li>
+            </ul>
+        </a>
+
+        <a id="item-choise_p2" href="new_page.html">
+            <h3>lorem</h3>
+            <ul>
+                <li href="#id1">lorem</li>
+                <li href="#id2">lorem</li>
+                <li gref="#id3">lorem</li>
+            </ul>
+        </a>
     </div>
-    <div class="flex-container">
-        <div class="item img1"></div>
-        <div class="item img2"></div>
-        <div class="item img3"></div>
-        <div class="item img4"></div>
-    </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nostrum ea eveniet iusto molestiae, beatae sit
-        asperiores et. Provident iste quos quibusdam sint voluptatum expedita aliquid alias, praesentium ab
-        perspiciatis!
-        Dolorum eaque labore temporibus magnam officiis autem at accusantium minus molestias, facere minima dolores,
-        ipsa, doloribus accusamus sed culpa. Quibusdam repellendus repudiandae, odio aspernatur provident modi odit
-        eaque cupiditate deserunt!
-        Magnam quas consectetur doloribus. Quisquam repudiandae dolorem a aliquid qui, hic laudantium nobis? Enim eius
-        pariatur reiciendis odit nulla necessitatibus. Optio vitae minus pariatur vel voluptate qui vero esse voluptas.
-    </p>
-    <div class="flex-container">
-        <div class="item img4"></div>
-        <div class="item img3"></div>
-        <div class="item img2"></div>
-        <div class="item img1"></div>
+
+</div>
+<br><br>
+
+<!-- обычный тектст с информацией ничеего примечатлеьного.. фото должно быть в левой части класса-->
+<div class="item-some_information">
+    <div class="item-some_information-photo"></div>
+    <div class="item-some_information-text">
+        <p>Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Rerum quidem molestias
+            alias a, vitae
+            impedit reprehenderit recusandae.
+            deserunt ipsa! Quod expedita ullam quo
+            corrupti debitis animi, suscipit beatae
+            voluptatem iste</p>
 
     </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam saepe dolorum ad facere, minima ab quisquam
-        necessitatibus est ut, blanditiis provident fugit porro animi dicta unde repudiandae, cumque quasi deleniti?
-        Soluta quibusdam minima nam, quidem rerum minus nihil error voluptatem, at sed sit laboriosam vel quaerat
-        distinctio animi? Sit ipsam voluptates in deserunt enim eligendi suscipit officiis totam reprehenderit officia?
-        Veritatis atque excepturi voluptate quisquam corporis, molestiae eaque dignissimos aspernatur non sit debitis
-        assumenda ea. Molestiae iure aut officiis sit quisquam dolores harum exercitationem nemo excepturi voluptas,
-        veniam corporis illum!
-        Perspiciatis, magni autem aperiam sed, perferendis enim nemo minus, dolorum impedit necessitatibus id quidem
-        quaerat! Ex quasi ipsam, adipisci consequatur illum quisquam maxime laudantium! Aspernatur, officiis. Labore
-        reiciendis repellat quod.
-        Officia dignissimos exercitationem explicabo eligendi nemo ducimus cum pariatur laboriosam? Iste, corporis
-        maiores. Omnis veniam sunt et? Non ipsum error accusamus, numquam dolor amet quasi eos. Beatae incidunt non
-        similique.</p>
+</div>
 
-    <div class="niz">
-        <div class="cont"><br><br>
-            <a href="https://www.youtube.com/">more information</a>
-            <br>
-            <h2>number</h2>
-            <br>
-            <p>+994 ### ## ##</p>
-        </div>
+<br><br>
+
+<!-- &  -->
+<div class="item-news-events">
+    <h1 id="p1">lorem</h1>
+    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, esse non. Magni iusto reprehenderit
+        odio!</p>
+    <button id="p1">2.59$</button>
+
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+
+
+    <h1 id="p2">lorem</h1>
+    <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, esse non. Magni iusto reprehenderit
+        odio
+        et nesciunt adipisci atque est tempora cumque enim laudantium ex blanditiis quibusdam aliquam, modi
+        velit!</p>
+    <button id="p2">11.99$</button>
+</div>
+
+<br><br><br>
+
+</div>
+
+<div class="container-two">
+    <!-- здесь должны быть свыше 15 img с эффектом hover blur чтобы при наведении курсора цвет фото менялся становясь более темным а посердине был значок инсты -->
+    <div class="item-inst-img">
+        <div class="item-ints img1"></div>
+        <div class="item-ints img2"></div>
+        <div class="item-ints img3"></div>
+        <div class="item-ints img4"></div>
+        <div class="item-ints img5"></div>
+        <div class="item-ints img6"></div>
+        <div class="item-ints img7"></div>
+        <div class="item-ints img8"></div>
+        <div class="item-ints img9"></div>
+        <div class="item-ints img10"></div>
+        <div class="item-ints img11"></div>
+        <div class="item-ints img12"></div>
+        <div class="item-ints img13"></div>
+        <div class="item-ints img14"></div>
+        <div class="item-ints img15"></div>
+
     </div>
-    <div class="footer">design by dost-san</div>
+</div>
+
+<br><br>
+
+<div class="footer">
+    <!-- маленькая фотография значок иконка.. в правом углу-->
+    <div class="item-foot-icon"></div>
+
+    <!-- вся информация. телфон место и т.д -->
+    <div class="item-foot-text">
+
+        <h3>number</h3>
+        <p>+994 ## ## ##</p>
+        <h3>our</h3>
+        <p>location</p>
+    </div>
+</div>
+
+
+</div>
+
+
 </body>
+
 </html>
