@@ -5,7 +5,7 @@ function myFunction2(){
 
     let answer = (a*h/2);
 
-    let netice = "S=" + answer ;
-    
+    let netice = "при пара основании A которое равно " + a + " и при высоте h лежащем на основании A и равному " + h + " площадь будет равна " + answer ;
+
     document.getElementById("buton2").innerHTML = netice;
 }
