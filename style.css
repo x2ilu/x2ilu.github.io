@@ -8,10 +8,25 @@ body {
     height: 100px;
     width: 300px;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 100px;
+}
+  .cont2 {
+    background-color: none;
+    height: 100px;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
 }
 
 .cont>button {
+    border: 0; 
+    background: radial-gradient(#ffbe79, #baa8fa , #292e74);
+    width: 350px;
+    height: 150px;
+    border-radius: 20px;
+    margin: auto;
+  }
+.cont2>button {
     border: 0; 
     background: radial-gradient(#ffbe79, #baa8fa , #292e74);
     width: 350px;
@@ -26,6 +41,13 @@ body {
 
 
   #h1 {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+  #h1-1 {
     color: whitesmoke;
     text-align: center;
     margin-top: 50px;
