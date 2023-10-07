@@ -16,7 +16,7 @@ function myFunction2(){
 
     let answer = (a**2);
 
-    let netice = "площадь треугольника равна стороне" + a + " в квадрате" ;
+    let netice = "площадь треугольника равна стороне " + a + " в квадрате" ;
 
     document.getElementById("buton2").innerHTML = netice;
 }
