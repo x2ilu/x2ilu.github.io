@@ -1,22 +1,43 @@
 function myFunction1(){
-    let a = prompt("enter parametr A?");
+let usd = prompt("впишите сумму в долларах..");
 
-    let h = prompt("enter parametr H?");
+let answer = (usd/1.7);
 
-    let answer = (a*h/2);
+let netice = 'сумма в долларах ' + usd +  + ' делает в манатах ' + answer;
 
-    let netice = "при пара основании A которое равно " + a + " и при высоте h лежащем на основании A и равному " + h + " площадь будет равна " + answer ;
+document.getElementById("buton1").innerHTML = netice;
 
-    document.getElementById("buton1").innerHTML = netice;
 }
 function myFunction2(){
-    let a = prompt("enter parametr A?");
 
-    let h = prompt("enter parametr A?");
+let usd = prompt("впишите сумму в евро");
 
-    let answer = (a**2);
+let answer = (usd/1.81);
 
-    let netice = "площадь треугольника равна стороне " + a + " в квадрате" ;
+let netice = 'сумма в евро ' + usd +  + ' делает в манатах ' + answer;
 
-    document.getElementById("buton2").innerHTML = netice;
+document.getElementById("buton2").innerHTML = netice;
+}
+
+function myFunction3(){
+
+let usd = prompt("впишите сумму в рублях");
+
+let answer = (usd/0.017);
+
+let netice = 'сумма в рублях ' + usd +  + ' делает в манатах ' + answer;
+
+document.getElementById("buton3").innerHTML = netice;
+
+}
+
+function myFunction4(){
+
+let usd = prompt("впишите сумму в лирах");
+
+let answer = (usd/0.061);
+
+let netice = 'сумма в лирах ' + usd +  + ' делает в манатах ' + answer;
+
+document.getElementById("buton4").innerHTML = netice;
 }
